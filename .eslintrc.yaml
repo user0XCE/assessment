@@ -1,0 +1,14 @@
+extends:
+  - eslint:recommended
+  - standard
+  - plugin:import/errors
+env:
+  browser: true
+  mocha: true
+
+rules:
+  # stylistic
+  comma-dangle: [2, always-multiline]
+
+  # eslint
+  no-unused-vars: [2, { argsIgnorePattern: ^_, varsIgnorePattern: ^_ }]

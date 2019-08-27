@@ -1,0 +1,12 @@
+.DS_Store
+node_modules
+*.log
+*.log.*
+.env
+.vscode
+dist
+dist-test
+.nyc_output/
+coverage
+hosts
+*.retry
